@@ -14,6 +14,6 @@ class Ellipse < Shape
   end
 
   def eccentricity
-    puts Math.sqrt(@semi_minor**2 - @semi_major**2)
+    puts format('Eccentricty of ellipse is: %.3f', Math.sqrt(@semi_minor**2 - @semi_major**2))
   end
 end
