@@ -1,4 +1,4 @@
-require './shape'
+require_relative 'shape'
 # Class ellipse
 class Ellipse < Shape
 
