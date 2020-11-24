@@ -1,4 +1,4 @@
-require './shape'
+require_relative 'shape'
 # Class ellipse
 class Ellipse < Shape
 
@@ -14,6 +14,6 @@ class Ellipse < Shape
   end
 
   def eccentricity
-    puts format('Eccentricty of ellipse is: %.3f', Math.sqrt(@semi_minor**2 - @semi_major**2))
+    puts format('Eccentricty of ellipse is: %.3f', Math.sqrt((@semi_minor**2 - @semi_major**2).abs))
   end
 end
