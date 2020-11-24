@@ -1,4 +1,4 @@
-require './shape'
+require_relative 'shape'
 # class Circle
 class Circle < Shape
 
@@ -9,11 +9,10 @@ class Circle < Shape
   end
 
   def perimeter(radius)
-    self.perimeter = (radius * 2 * Math::PI)
+    self.p = (radius * 2 * Math::PI)
   end
 
   def area(radius)
     self.area = (radius**2 * Math::PI)
   end
 end
-
