@@ -1,4 +1,4 @@
-require './shape'
+require_relative 'shape'
 # Class rectangle
 class Rectangle < Shape
 
