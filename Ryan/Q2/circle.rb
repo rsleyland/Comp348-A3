@@ -1,4 +1,4 @@
-require './shape'
+require_relative 'shape'
 # class Circle
 class Circle < Shape
 
