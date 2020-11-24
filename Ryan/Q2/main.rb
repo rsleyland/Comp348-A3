@@ -4,7 +4,7 @@ require_relative 'rectangle'
 require_relative 'ellipse'
 
 f = File.new('shapes.txt')
-while line = f.gets
+while (line = f.gets)
   line_splits = line.split(/\s/)
 
   case line_splits[0]
