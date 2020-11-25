@@ -38,3 +38,4 @@ while (line = f.gets)
     puts 'NOT A SHAPE!'
   end
 end
+f.close
