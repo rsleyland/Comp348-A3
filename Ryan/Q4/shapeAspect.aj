@@ -48,7 +48,7 @@ public privileged aspect shapeAspect {
 		return c.radius*c.radius*Math.PI;
 	}
 	
-	//checks if width or height of rectangle is negative before returning & getArea()
+	//checks if width or height of rectangle is negative before returning getArea()
 	double around(Rectangle r) : execution(double Rectangle.getArea())&&target(r) {
 		if (r.width<0 || r.height < 0) {
 			return 0;
