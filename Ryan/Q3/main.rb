@@ -60,5 +60,6 @@ while (line = f.gets)
   end
 end
 puts "\n---------- End -> Processing file: #{f.path} ----------\n"
+f.close
 print_stats(shape_stats)
 puts "\n---------- Program closing, Goodbye ----------\n"
