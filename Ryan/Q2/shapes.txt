@@ -1,0 +1,7 @@
+rectangle 10 20
+shape
+rectangle 01 10
+
+circle 5
+ellipse 2 4
+ellipse 1 -4
